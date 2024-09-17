@@ -14,7 +14,7 @@
         <!-- Marker (using "hiro" default marker) -->
         <a-marker preset="hiro">
             <!-- Add a 2D image on top of the marker -->
-            <a-image src="your-image-url-here" width="1" height="1" position="0 0.5 0"></a-image>
+            <a-image src="square logo.png" width="1" height="1" position="0 0.5 0"></a-image>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
