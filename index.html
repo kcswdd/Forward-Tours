@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR.js with Custom Marker</title>
+    <title>AR.js with Hiro Marker</title>
     <!-- Import A-Frame and AR.js -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"></script>
 </head>
 <body style="margin: 0; overflow: hidden;">
-    <!-- A-Frame Scene -->
     <a-scene embedded arjs>
-        <!-- Custom Marker: Point this to your hosted .patt file -->
-        <a-marker type="pattern" url="https://raw.githubusercontent.com/kcswdd/Forward-Tours/main/custom-marker.patt">
-            <!-- Add the 2D image or 3D object to display on top of the marker -->
+        <!-- Hiro Marker -->
+        <a-marker preset="hiro">
+            <!-- Add the 2D image on top of the marker -->
             <a-image src="https://raw.githubusercontent.com/kcswdd/Forward-Tours/main/square%20logo.png" width="1" height="1" position="0 0.5 0"></a-image>
         </a-marker>
         <a-entity camera></a-entity>
